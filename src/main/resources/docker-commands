@@ -1,0 +1,7 @@
+
+#run docker container in background, exposing default port
+docker run --name demo-redis-instance -p 6379:6379 -d
+#[optional] cmd to play with docker
+docker exec -it demo-redis-instance redis-cli
+#[optional] cmd to get logs
+docker logs demo-redis-instance --follow
