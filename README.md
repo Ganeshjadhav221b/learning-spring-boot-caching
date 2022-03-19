@@ -1,7 +1,10 @@
 # learning-spring-boot-caching
 In this project we'll see 2 ways of caching in spring boot.
+<br>
 We'll assume this is used for storing student details.
+<br>
 Using in-memory H2 DB(needs only dependency & properties in application.properties to be specified)
+<br>
 We run redis in docker container, commands for same can be found in resource package -> docker-commands.
 
 
